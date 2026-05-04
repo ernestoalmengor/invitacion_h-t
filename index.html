@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- Google Tag Manager -->
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-K4J3BKBK");
+    </script>
+    <!-- End Google Tag Manager -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Henry & Tere - Nos Casamos</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@300;400;600;700&family=Great+Vibes&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;1,8..60,400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><text x='0' y='14' font-size='16'>♥</text></svg>"
+    />
+  </head>
+  <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-K4J3BKBK"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe
+    ></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <main class="invitacion-container">
+      <section class="portada">
+        <div class="portada-bg"></div>
+        <div class="portada-contenido">
+          <p class="cita">
+            ¡Nos casamos! y queremos compartir este momento tan especial contigo
+          </p>
+          <h1>Henry <span class="ampersand">&</span> Tere</h1>
+          <div class="padres-container">
+            <p class="cita">Con la bendición de Dios y de nuestros padres</p>
+            <div class="padres-nombres">
+              <div class="padre-columna">
+                <p>Esvin Orlando Hernández</p>
+                <p>Marta Marroquín de Hernández</p>
+              </div>
+              <div class="divisor-vertical"></div>
+              <div class="padre-columna">
+                <p>Elio Rodríguez</p>
+                <p>Paulina Gómez de Rodríguez</p>
+              </div>
+            </div>
+          </div>
+          <div class="fecha-boda-elegante">
+            <div class="mes">MAYO</div>
+            <div class="fecha-grid">
+              <div class="dia-semana">SÁBADO</div>
+              <div class="dia-numero">16</div>
+              <div class="anio">2026</div>
+            </div>
+          </div>
+          <div class="contador-container">
+            <div id="countdown" role="timer"></div>
+          </div>
+        </div>
+        <audio
+          id="musicaFondo"
+          src="public/audio.mp3"
+          preload="auto"
+          loop
+        ></audio>
+      </section>
+
+      <section class="seccion glass detalles reveal">
+        <p class="titulo-seccion">Detalles del Evento</p>
+        <div class="evento-info-container-unico">
+          <div class="evento-fila">
+            <div class="evento-texto">
+              <h3>Misa</h3>
+              <p><strong>Hora:</strong> 10:30 AM</p>
+              <p>Iglesia Parroquia Inmaculada Concepción de Ciudad Vieja</p>
+              <p>Ciudad Vieja Sac,<br />zona 4</p>
+            </div>
+            <div class="evento-icono-grande">
+              <i class="ph-thin ph-church"></i>
+              <a
+                href="https://maps.app.goo.gl/tm9NwFEW5ZQXcBrN8"
+                target="_blank"
+                class="enlace-mapa-btn"
+              >
+                <i class="ph-light ph-map-pin"></i> Ver en Google Maps
+              </a>
+            </div>
+          </div>
+
+          <div class="evento-divisor"></div>
+
+          <div class="evento-fila">
+            <div class="evento-icono-grande">
+              <i class="ph-thin ph-cheers"></i>
+              <a
+                href="https://maps.app.goo.gl/kz1qE3M2BWFzah9L6"
+                target="_blank"
+                class="enlace-mapa-btn"
+              >
+                <i class="ph-light ph-map-pin"></i> Ver en Google Maps
+              </a>
+            </div>
+            <div class="evento-texto">
+              <h3>Recepción y Baile</h3>
+              <p><strong>Hora:</strong> 01:00 PM</p>
+              <p>Salón de Convenciones</p>
+              <p>Ciudad Vieja Sac,<br />zona 4</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="seccion glass galeria reveal">
+        <p class="titulo-seccion">Juntos por la eternidad</p>
+        <div class="poema-container">
+          <p class="poema-texto">
+            "Así que ya no son dos, sino uno solo. Por tanto, lo que Dios ha
+            unido, que no lo separe el hombre"
+            <br />
+            <span style="font-size: 0.85em; font-weight: normal"
+              >— Mateo 19:6</span
+            >
+          </p>
+          <div class="slider-container">
+            <img src="public/1.png" class="slide active" alt="Foto 1" />
+            <img src="public/2.png" class="slide" alt="Foto 2" />
+            <img src="public/3.png" class="slide" alt="Foto 3" />
+          </div>
+        </div>
+      </section>
+
+      <section class="seccion glass regalos reveal">
+        <p class="titulo-seccion">El Mejor Regalo</p>
+        <div class="regalos-container">
+          <div class="regalo-icono">
+            <i class="ph-thin ph-gift"></i>
+          </div>
+          <div class="regalo-texto">
+            <p>
+              El mejor regalo que podemos recibir es tu compañía en este día tan
+              especial.
+            </p>
+            <p>
+              Sin embargo, si deseas obsequiarnos algo, agradecemos que sea en
+              efectivo.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer-creditos">
+      <p>&copy; Todos los derechos reservados.</p>
+      <p>Desarrollado por Kevin Almengor</p>
+    </footer>
+
+    <button
+      class="player"
+      id="playerBtn"
+      aria-label="Reproducir o pausar música de fondo"
+    >
+      <i class="ph-bold ph-play"></i>
+    </button>
+
+    <div class="overlay-entrada" id="overlayEntrada">
+      <div class="panel">
+        <p>¡Nos Casamos!</p>
+        <p>Acompáñanos a vivir este momento inolvidable</p>
+        <button class="btn-entrar" id="btnEntrar">
+          <i class="ph-light ph-envelope-open"></i> Ver invitación
+        </button>
+      </div>
+    </div>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
