@@ -1,3 +1,11 @@
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('./sw.js').catch(err => {
+      console.log('ServiceWorker registration failed: ', err);
+    });
+  });
+}
+
 document.addEventListener("DOMContentLoaded", () => {
   const fechaBoda = new Date("May 16, 2026 10:30:00").getTime();
 
